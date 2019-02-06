@@ -1,0 +1,38 @@
+<head>
+  <style>
+    body {
+      display: grid;
+      grid-template-columns: 20% auto;
+      grid-template-rows: 100vh;
+    }
+    .sidebar {
+      background: orangered;
+    }
+    .content {
+      background: blueviolet;
+    }
+    .modal-body {
+      background-color: #fff;
+      margin: auto;
+      height: 30%;
+      width: 30%;
+    }
+    .modal {
+      height: 100%;
+      width: 100%;
+      position: fixed;
+      background-color: rgba(0, 0, 0, 0.5);
+      left: 0;
+      top: 0;
+    }
+  </style>
+</head>
+<body>
+  <div class="modal">
+    <div class="modal-body">
+      <h1>I am a modal</h1>
+    </div>
+  </div>
+  <div class="sidebar">I am a sidebar</div>
+  <div class="content"><h1>I am a modal example</h1></div>
+</body>
